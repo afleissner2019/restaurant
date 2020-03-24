@@ -1,0 +1,382 @@
+.background {
+    background: url(/images/promo-background.jpeg)no-repeat center center/cover;
+    width: 100%;
+    overflow-x: hidden;
+    padding-right: 900px;
+    
+    
+}
+
+
+.logo {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+    padding-left: 900px;
+    margin-top: 30px;
+    
+    
+
+       
+}
+
+.navbar li {
+    font-size: 20px;
+    align-items: center;
+    flex: 1;
+    padding-left: -20px;
+    padding-right: 10px;
+    padding-top: -100px;
+    margin-top: -80px;
+    margin-left: 50px;
+    
+
+}
+
+.middle {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+
+}
+
+.main-booktable-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.booktable {
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    
+    
+}
+
+.see-menu {
+    background-color: rgba(241, 240, 240, 0.4);
+    color: white;
+    font-weight: bold;
+    /* border: solid white; */
+    
+}
+
+.booktable, .see-menu {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+.second-page {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    padding-right: 900px;
+}
+
+.just-food, .about-dish {
+    flex: 1;
+}
+
+p {
+    align-items: center;
+    line-height: 25px;
+    font-size: 20px;
+    color: black;
+
+}
+
+h2 {
+    color: rgba(233, 165, 75, 0.924);
+    font-size: 40px;
+}
+
+.third-pagebg {
+    background: url(/images/ingredients-background.jpeg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    color: white;
+    
+}
+
+.side-ingredients {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.fine-ingredients {
+    font-size: 40px;
+    color: white;
+}
+
+.side-ingredients .parag {
+    color: white;
+    font-size: 20px;
+    line-height: 40x;
+   
+}
+
+.img-ingredients {
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.img, .img2{
+    flex: 1;
+    width: 300px;
+    align-items: center;
+}
+
+.img2 {
+   position: relative;
+   top: -5px;
+   right: -60px;
+}
+
+.img1 {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+
+.menu-main-dishes {
+    background-color: white;
+}
+
+
+.menu-bg {
+    background: url(/images/reservations-background.jpeg);
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: inline-block;
+    overflow-x: hidden;
+    /* padding-right: 900px; */
+   
+
+    
+}
+
+.food-menu {
+    color: rgba(233, 165, 75, 0.924);
+    font-size: 20px;
+    text-align: start;
+}
+
+.menu-name {
+    color: rgba(233, 165, 75, 0.924);
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.pricing {
+    color: rgba(233, 165, 75, 0.924);
+    float: right;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.food-description {
+    font-size: 20px;
+    text-align: start;
+}
+
+.food-description, .food-menu, .menu-name {
+    line-height: 30px;
+}
+
+.food-description, .food-menu {
+    padding-left: 40px;
+}
+
+.menu-bg1 {
+    background: url(/images/reservations-background.jpeg);
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+    float: right;
+    padding-bottom: 50px;
+}
+
+.guest-review-bg {
+    background: url(/images/reviews-background1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+    overflow-x: hidden;
+    padding-right: 900px;
+    
+
+}
+
+.guest-review {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 70%;
+    width: 45%;
+    display: inline-block;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.review {
+    color: white;
+    font-weight: 20px;
+    line-height: 40px;
+}
+
+.review-reference {
+    color: white;
+    font-size: 15px;
+}
+
+.rightfood-bg {
+    background: url(/images/reservations-background.jpeg) no-repeat center center/cover;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.image-reservation2 {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 500px;
+    
+    
+}
+
+.image-reservation1 {
+    flex: 1;
+    margin-left: 210px;
+}
+
+
+.form {
+    float: right;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(233, 165, 75, 0.924);
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    position: relative;
+    right: 300px;
+    top: -50px;
+    
+    
+}
+
+.parag-form {
+    font-size: 20px;
+    color: black
+
+   
+}
+
+.name-form, .date-form {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.book-now input {
+    color: white;
+    font-size: 20px;
+    border: 0;
+    background-color: rgba(233, 165, 75, 0.924);
+    padding: 4px 30px;
+}
+
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
+    margin: 0 auto;
+    
+
+    
+}
+
+.about-us, .opening-hours, .location {
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.about-us > p, .opening-hours > p, .location > p {
+    color: white;
+    font-size: 15px;
+}
+
+
+

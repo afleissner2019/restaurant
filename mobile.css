@@ -1,0 +1,54 @@
+
+.navbar li {
+    display: block;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+.navbar ul {
+  float: right;
+  width: 500px;
+
+  font-size: 20px;
+  color: white;
+
+
+}
+
+.second-page {
+  flex-direction: column;
+  
+}
+
+.side-ingredients {
+  float: left;
+}
+
+.guest-review {
+  height: 80%;
+  width: 50%;
+
+}
+
+.rightfood-bg {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  float: left;
+  margin-left: 300px;
+  position: relative;
+  right: 100px;
+  
+  
+}
+
+.footer {
+  flex-direction: column;
+}
